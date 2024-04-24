@@ -21,6 +21,11 @@
 	box-shadow: 3px 6px 8px #000;
 }
 
+.project-link {
+	display: inline;
+	color: green;
+}
+
 .course-link {
 	color: #fff;
 }
