@@ -2,7 +2,7 @@
 	background-color: #444;
 	color: #fff;
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 	font-family: monospace;
 	display: flex;
 	flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .site-header-content {
-	margin: 10px;
+	margin: 30px;
 }
 
 .profile-pic {
@@ -22,8 +22,9 @@
 }
 
 .project-link {
-	display: inline;
-	color: green;
+	font-size: 20px;
+	color: yellowgreen;
+	letter-spacing: 2px;
 }
 
 .course-link {
