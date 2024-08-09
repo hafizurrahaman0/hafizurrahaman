@@ -1,0 +1,65 @@
+:root {
+    --font: "Poppins", sans-serif;
+    --color: rgb(0, 180, 0);
+    --background-color: #0F1624;
+    --font-bold: 600;
+    ;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links.active {
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 70px;
+        border: 2px solid white;
+        padding: 20px;
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .links.active {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--background-color);
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .links>ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section1 {
+        text-align: center;
+    }
+
+    .section1> :first-child h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .section1> :first-child p {
+        font-size: 18px;
+    }
+
+    .section1> :first-child :nth-child(3) span {
+        color: var(--color);
+        font-weight: var(--font-bold);
+        font-size: 20px;
+    }
+}
