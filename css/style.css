@@ -84,7 +84,7 @@ main {
 
 .section1 {
     background-color: var(--background-color);
-    height: calc(100vh);
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -106,11 +106,40 @@ main {
 }
 
 .section2 {
-    /* background-color: var(--background-color); */
-    background-color: lightblue;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    width: 700px;
+    min-height: 200px;
+    padding: 20px 0;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardDesc p {
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+
+.btn {
+    background-color: #333;
+    padding: 5px 10px;
 }
 
 /* Effects */
