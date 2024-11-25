@@ -112,6 +112,10 @@ main {
     align-items: center;
 }
 
+.section3 {
+    background-color: var(--background-color);
+}
+
 .card {
     width: 700px;
     min-height: 200px;
