@@ -112,6 +112,10 @@ main {
     align-items: center;
 }
 
+.section2 .card-body {
+    height: 300px;
+}
+
 .section3 {
     background-color: var(--background-color);
 }
@@ -120,7 +124,6 @@ main {
     width: 700px;
     min-height: 200px;
     padding: 20px 0;
-    border: 2px solid white;
     text-align: center;
     display: flex;
     flex-direction: column;
