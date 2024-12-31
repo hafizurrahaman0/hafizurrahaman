@@ -107,13 +107,10 @@ main {
 
 .section2 {
     background-color: var(--background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section2 .card-body {
-    height: 300px;
+    min-height: 300px;
 }
 
 .section3 {
